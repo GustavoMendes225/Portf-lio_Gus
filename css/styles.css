@@ -1,0 +1,176 @@
+:root{
+    --text-style--: 
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.fonte-texto{
+    font:var(--text-style--);
+    
+}
+
+.text-color{
+    color: rgb(59, 154, 151);
+    font-size:x-large;
+}
+.text-color2{
+    color: rgb(59, 154, 151);
+    font-weight: 800;
+}
+.text-color3{
+    color: rgb(59, 154, 151);
+    
+}
+
+.text-color4{
+    color:rgb(32, 82, 80) ;
+    font-weight: 600;
+}
+
+
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.bg-branco{
+   
+    color: black;
+    background-color: white;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment:fixed
+    
+    
+}
+
+
+.bg-light-aqua{
+    background-color:rgb(136, 172, 171);
+}
+.bg-light-aqua-2{
+   
+  color: black;
+  background-color: rgb(136, 172, 171);
+  background-size: cover;
+  min-height: 40vh;
+  background-attachment:fixed
+  
+  
+}
+.bg-dark-aqua{
+    background-color: rgb(35, 92, 90);
+}
+
+.bg-dark-aqua-1{
+   
+  background-color:rgb(35, 92, 90);
+  background-size: cover;
+  min-height: 5vh;
+  background-attachment:fixed
+  
+  
+}
+
+.bg-projetos{
+    background-color: rgb(232, 232, 232);
+}
+
+.bg-contato{
+    background-color: rgb(23, 73, 56);
+}
+
+.com-linha {
+    text-align: center;
+  }
+  
+  .com-linha::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(136, 172, 171);
+    margin: 8px auto 0 auto; 
+  }
+
+  .com-linha2 {
+    text-align: center;
+  }
+  
+  .com-linha2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(35, 92, 90);
+    margin: 8px auto 0 auto; 
+  }
+
+
+.btn {
+    border: 2px solid rgb(59, 154, 151);
+    color: white; 
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(59, 154, 151);
+    border-radius: 50px;
+    letter-spacing: 1px;
+    transition: .7s;
+    
+    
+}
+.btn:hover {
+    background-color: transparent;
+    color: rgb(59, 154, 151);
+    border: 2px solid rgb(59, 154, 151);
+    
+}
+
+.borda-sobre-mim {
+
+background-color:rgb(247, 247, 247) ;
+border: 2px solid rgb(35, 92, 90);
+border-radius: 15px;
+padding: 50px;
+width: 100%;
+
+
+}
+
+.texto-animado {
+    color: rgb(94, 246, 241);
+    cursor:pointer;
+  }
+  
+  .texto-animado:hover {
+    color: white;
+    text-shadow: 0 0 20px rgb(59, 154, 151);
+  }
+
+  /* Ajuste para telas pequenas */
+    @media (max-width: 600px) {
+    .texto-animado:hover {
+    color: rgb(59, 154, 151);
+    }
+  }
+
+  .shadows{
+    box-shadow: 0 10px 20px rgb(59, 154, 151);
+  }
+
+  .carrosel{
+    width: 100%;
+  }
+
+  .img-radius{
+    border-radius: 15px;
+  }
+
+
+
+
+
